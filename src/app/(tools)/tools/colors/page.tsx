@@ -3,7 +3,7 @@ import React from "react";
 
 export default function ColorsTool() {
   return (
-    <>
+    <main className="w-full p-4">
       <section>
         <h2 className="font-medium">Generador de Paleta de Colores</h2>
         <p className="mb-5 text-neutral-500">
@@ -14,6 +14,6 @@ export default function ColorsTool() {
       <section>
         <div>Colors</div>
       </section>
-    </>
+    </main>
   );
 }

@@ -12,7 +12,7 @@ export default async function ToolsLayout({
   return (
     <div className="flex h-screen">
       <SideBarComponent />
-      <main className="w-full p-4">{children}</main>
+      {children}
     </div>
   );
 }
