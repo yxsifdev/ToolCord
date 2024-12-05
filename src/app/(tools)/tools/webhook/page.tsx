@@ -11,7 +11,7 @@ export default function WebHookTool() {
       <section className="md:overflow-y-auto h-full">
         <WebhookComponent onMessageChange={setPreviewMessage} />
       </section>
-      <section className="overflow-y-auto h-full bg-neutral-900 rounded-lg p-4 font-light text-sm text-neutral-300">
+      <section className="overflow-y-auto break-words h-full bg-neutral-900 rounded-lg p-4 font-light text-sm text-neutral-300">
         <div className="whitespace-pre-wrap">
           {previewMessage || "Comienza a escribir un mensaje..."}
         </div>
